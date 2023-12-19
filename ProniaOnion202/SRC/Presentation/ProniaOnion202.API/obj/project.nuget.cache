@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qInBcitXRYh2HV9Y/RGYxCDhF/3KEw5VgQ88EyjWE2lLYJsY5G8MRQsvBl96td/aU8fGQZZcx7l5ngCAXu+FeQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\helpdesk_connect\\Downloads\\ProniaOnion202\\SRC\\Presentation\\ProniaOnion202.API\\ProniaOnion202.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
