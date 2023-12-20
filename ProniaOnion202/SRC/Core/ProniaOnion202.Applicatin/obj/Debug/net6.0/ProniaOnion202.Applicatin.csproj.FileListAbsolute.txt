@@ -1,0 +1,15 @@
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\bin\Debug\net6.0\ProniaOnion202.Applicatin.deps.json
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\bin\Debug\net6.0\ProniaOnion202.Applicatin.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\bin\Debug\net6.0\ProniaOnion202.Applicatin.pdb
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\bin\Debug\net6.0\ProniaOnion202.Domain.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\bin\Debug\net6.0\ProniaOnion202.Domain.pdb
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.csproj.AssemblyReference.cache
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.AssemblyInfoInputs.cache
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.AssemblyInfo.cs
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.csproj.CoreCompileInputs.cache
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.csproj.CopyComplete
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\refint\ProniaOnion202.Applicatin.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ProniaOnion202.Applicatin.pdb
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Applicatin\obj\Debug\net6.0\ref\ProniaOnion202.Applicatin.dll

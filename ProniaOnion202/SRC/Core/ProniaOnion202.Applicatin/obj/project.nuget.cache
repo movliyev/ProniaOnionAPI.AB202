@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XFq6GLVO3rRnhgLsps3BOIVG6bCT+ah0qqda8hZXiFi+GF2nOtyYgCC2n94BullYBSiSQozfMNujjHGk9RMhBg==",
+  "dgSpecHash": "qJ5CreTfaLLMsgLWCkBL5UqVYgrK9OfCT4MmXUo3ETiPG9UyG/Tz5D+WthhD6LcJfhP8S78gIXXHUe8/hL1jgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\helpdesk_connect\\Downloads\\ProniaOnion202\\SRC\\Core\\ProniaOnion202.Applicatin\\ProniaOnion202.Applicatin.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\helpdesk_connect\\Desktop\\ProniaOnion.AB202Project\\ProniaOnion202\\SRC\\Core\\ProniaOnion202.Applicatin\\ProniaOnion202.Applicatin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\helpdesk_connect\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
