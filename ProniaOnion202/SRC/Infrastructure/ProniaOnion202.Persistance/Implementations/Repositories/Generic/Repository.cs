@@ -31,6 +31,7 @@ namespace ProniaOnion202.Persistance.Implementations.Repositories
             int skip = 0,
             int take = 0,
             bool istrac = false,
+            bool ignorQuery = false,
             params string[] includes)
         {
             IQueryable<T> query = _dbSet;
@@ -49,6 +50,7 @@ namespace ProniaOnion202.Persistance.Implementations.Repositories
                     query = query.Include(includes[i]);
                 }
             }
+            if(ignorQuery) query=query.IgnoreQueryFilters();    
             return istrac ? query : query.AsNoTracking();
         }
 
@@ -66,6 +68,11 @@ namespace ProniaOnion202.Persistance.Implementations.Repositories
         {
             _dbSet.Remove(entity);
         }
+        public void SoftDelete(T entity)
+        {
+            entity.IsDeleted = true;    
+            Update(entity);
+        }
         public void Update(T entity)
         {
             _dbSet.Update(entity);
@@ -75,5 +82,6 @@ namespace ProniaOnion202.Persistance.Implementations.Repositories
         {
             await _context.SaveChangesAsync();
         }
+
     }
 }

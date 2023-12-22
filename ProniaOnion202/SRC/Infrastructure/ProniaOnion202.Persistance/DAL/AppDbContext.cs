@@ -28,8 +28,49 @@ namespace ProniaOnion202.Persistance.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Category>().HasQueryFilter(c => c.IsDeleted == false);
+            modelBuilder.Entity<Tag>().HasQueryFilter(c => c.IsDeleted == false);
+
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly .GetExecutingAssembly());       
             base.OnModelCreating(modelBuilder); 
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            var entries = ChangeTracker.Entries<Category>();
+           
+
+            foreach (var data in entries) {
+                switch (data.State)
+                {
+                    
+                    case EntityState.Modified:
+                        data.Entity.ModifiedAt = DateTime.Now;
+                        break;
+                    case EntityState.Added:
+                        data.Entity.CreatedAt = DateTime.Now;
+
+                        break;
+                }
+            }
+            var entries2 = ChangeTracker.Entries<Tag>();
+
+
+            foreach (var data in entries2)
+            {
+                switch (data.State)
+                {
+
+                    case EntityState.Modified:
+                        data.Entity.ModifiedAt = DateTime.Now;
+                        break;
+                    case EntityState.Added:
+                        data.Entity.CreatedAt = DateTime.Now;
+
+                        break;
+                }
+            }
+            return base.SaveChangesAsync(cancellationToken);
         }
     }
 }
