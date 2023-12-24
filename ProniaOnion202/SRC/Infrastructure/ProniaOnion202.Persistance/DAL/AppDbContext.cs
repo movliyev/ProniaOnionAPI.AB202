@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProniaOnion202.Domain.Entities;
+using ProniaOnion202.Persistance.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,11 +26,9 @@ namespace ProniaOnion202.Persistance.DAL
 
 
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Category>().HasQueryFilter(c => c.IsDeleted == false);
-            modelBuilder.Entity<Tag>().HasQueryFilter(c => c.IsDeleted == false);
+           modelBuilder.ApplyQueryFilters();    
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly .GetExecutingAssembly());       
             base.OnModelCreating(modelBuilder); 
