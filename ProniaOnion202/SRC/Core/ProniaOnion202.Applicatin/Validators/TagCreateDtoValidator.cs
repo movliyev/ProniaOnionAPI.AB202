@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProniaOnion202.Applicatin.Validators
 {
-    internal class TagCreateDtoValidator : AbstractValidator<TagCreateDto>
+    public class TagCreateDtoValidator : AbstractValidator<TagCreateDto>
     {
         public TagCreateDtoValidator()
         {

@@ -21,8 +21,13 @@ namespace ProniaOnion202.AB202API.Controllers
         {
             return Ok(await _ser.GetAllAsync(page, take));
         }
-       
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
+            return StatusCode(StatusCodes.Status200OK, await _ser.GetByIdAsync(id));
+        }
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CategoryCreateDto cdto)
         {

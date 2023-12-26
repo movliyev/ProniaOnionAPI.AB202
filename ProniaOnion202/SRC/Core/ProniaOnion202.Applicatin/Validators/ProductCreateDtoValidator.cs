@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProniaOnion202.Applicatin.Validators
 {
-    internal class ProductCreateDtoValidator:AbstractValidator<ProductCreateDto>
+    public class ProductCreateDtoValidator:AbstractValidator<ProductCreateDto>
     {
         public ProductCreateDtoValidator()
         {
@@ -19,7 +19,8 @@ namespace ProniaOnion202.Applicatin.Validators
             RuleFor(x=>x.SKU).NotEmpty()
                 .Must(s=>s.Length == 6).WithMessage("SKU must contaon only 6 characters");
             RuleFor(x => x.Price).Must(x => x >= 10 && x <= 999999.99m);
-                //.LessThanOrEqualTo(9999999.99m).GreaterThanOrEqualTo
+            RuleFor(x => x.CategoryId).Must(x => x > 0);
+            RuleForEach(x=>x.Colorids).Must(x=>x > 0);
         }
     }
 }

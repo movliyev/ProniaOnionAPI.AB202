@@ -31,16 +31,13 @@ namespace ProniaOnion202.Persistance.Implementations.Services
             return _map.Map<ICollection<CategoryItemDto>>(category);
         }
 
-        //public async Task<CategoryItemDto> GetByIdAsync(int id)
-        //{
-        //    Category category = await _repo.GetByIdAsync(id);
-        //    if (category == null) throw new Exception("Not found");
-        //    return new CategoryItemDto
-        //    {
-        //        Id = category.Id,
-        //        Name = category.Name,
-        //    };
-        //}
+        public async Task<GetCategoryDto> GetByIdAsync(int id)
+        {
+            Category cate = await _repo.GetByIdAsync(id);
+            if (cate is null) throw new Exception("Not Found");
+
+            return _map.Map<GetCategoryDto>(cate);
+        }
         public async Task CreateAsync(CategoryCreateDto dto)
         {
             await _repo.AddAsync(_map.Map<Category>(dto));
@@ -67,14 +64,14 @@ namespace ProniaOnion202.Persistance.Implementations.Services
            await _repo.SaveChangesAsync();
         }
 
-        //public async Task DeleteAsync(int id)
-        //{
-        //    Category exist = await _repo.GetByIdAsync(id);
+        public async Task DeleteAsync(int id)
+        {
+            Category exist = await _repo.GetByIdAsync(id);
 
 
-        //    _repo.Delete(exist);
-        //    await _repo.SaveChangesAsync();
-        //}
+            _repo.Delete(exist);
+            await _repo.SaveChangesAsync();
+        }
 
 
     }

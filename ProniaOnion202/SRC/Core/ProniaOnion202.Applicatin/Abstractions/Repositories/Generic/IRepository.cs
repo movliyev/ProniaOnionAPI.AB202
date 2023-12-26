@@ -13,6 +13,7 @@ namespace ProniaOnion202.Applicatin.Abstractions.Repositories
         IQueryable<T> GetAll( bool istrac = false, bool ignorQuery = false ,params string[] includes);
         IQueryable<T> GetAllWhere(Expression<Func<T, bool>>? exp = null, Expression<Func<T, object>>? orderexp = null, bool isdesc = false, int skip = 0, int take = 0, bool istrac = false,bool ignorQuery=false, params string[] includes);
         Task<T> GetByIdAsync(int id, bool istrac = false, bool ignorQuery = false, params string[] includes);
+        Task<bool> IsExistAsync(Expression<Func<T, bool>> exp);
         Task<T> GetByExpressionAsync(Expression<Func<T,bool>> exp, bool istrac = false, bool ignorQuery = false, params string[] includes);
         Task AddAsync(T entity);
         void Update(T entity);

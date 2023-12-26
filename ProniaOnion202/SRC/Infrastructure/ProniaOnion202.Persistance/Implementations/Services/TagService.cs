@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ProniaOnion202.Applicatin.Abstractions.Repositories;
 using ProniaOnion202.Applicatin.Abstractions.Services;
 using ProniaOnion202.Applicatin.DTOs.Categories;
+using ProniaOnion202.Applicatin.DTOs.Colors;
 using ProniaOnion202.Applicatin.DTOs.Tags;
 using ProniaOnion202.Domain.Entities;
 using System;
@@ -32,16 +33,13 @@ namespace ProniaOnion202.Persistance.Implementations.Services
             return _map.Map<ICollection<TagItemDto>>(Tag);
         }
 
-        //public async Task<TagItemDto> GetByIdAsync(int id)
-        //{
-        //    Tag Tag = await _repo.GetByIdAsync(id);
-        //    if (Tag == null) throw new Exception("Not found");
-        //    return new TagItemDto
-        //    {
-        //        Id = Tag.Id,
-        //        Name = Tag.Name,
-        //    };
-        //}
+        public async Task<GetTagDto> GetByIdAsync(int id)
+        {
+            Tag tag = await _repo.GetByIdAsync(id);
+            if (tag is null) throw new Exception("Not Found");
+
+            return _map.Map<GetTagDto>(tag);
+        }
         public async Task CreateAsync(TagCreateDto dto)
         {
             await _repo.AddAsync(_map.Map<Tag>(dto));
@@ -69,6 +67,13 @@ namespace ProniaOnion202.Persistance.Implementations.Services
             await _repo.SaveChangesAsync();
 
         }
+        public async Task DeleteAsync(int id)
+        {
+            Tag exist = await _repo.GetByIdAsync(id);
 
+
+            _repo.Delete(exist);
+            await _repo.SaveChangesAsync();
+        }
     }
 }   

@@ -46,6 +46,10 @@ namespace ProniaOnion202.Persistance.Implementations.Repositories
             if (ignorQuery) query = query.IgnoreQueryFilters();
             return istrac ? query : query.AsNoTracking();
         }
+        public async Task<bool>IsExistAsync(Expression<Func<T,bool>> exp)
+        {
+          return  await  _dbSet.AnyAsync(exp);
+        }
         public async Task<T> GetByIdAsync(int id, bool istrac = false, bool ignorQuery = false, params string[] includes)
         {
            IQueryable<T> query = _dbSet.Where(x=>x.Id==id);

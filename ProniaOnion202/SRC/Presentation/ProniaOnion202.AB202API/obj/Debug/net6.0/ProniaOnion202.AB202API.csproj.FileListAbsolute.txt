@@ -74,3 +74,6 @@ C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Pr
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\obj\Debug\net6.0\ref\ProniaOnion202.AB202API.dll
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

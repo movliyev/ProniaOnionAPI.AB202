@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ProniaOnion202.Applicatin.DTOs.Categories;
+using ProniaOnion202.Applicatin.DTOs.Colors;
 using ProniaOnion202.Applicatin.DTOs.Tags;
 using ProniaOnion202.Domain.Entities;
 using System;
@@ -15,6 +16,8 @@ namespace ProniaOnion202.Applicatin.MappingProfiles
         public TagProfile()
         {
             CreateMap<Tag, TagItemDto>().ReverseMap();
+            CreateMap<GetTagDto, Tag>().ReverseMap();
+
             CreateMap<TagCreateDto, Tag>();
 
         }

@@ -22,7 +22,12 @@ namespace ProniaOnion202.AB202API.Controllers
         {
             return Ok(await _ser.GetAllAsync(page, take));
         }
-
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
+            return StatusCode(StatusCodes.Status200OK, await _ser.GetByIdAsync(id));
+        }
 
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] TagCreateDto cdto)
@@ -44,7 +49,7 @@ namespace ProniaOnion202.AB202API.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
-            await _ser.SoftDeleteAsync(id);
+            await _ser.DeleteAsync(id);
             return NoContent();
         }
        
