@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using ProniaOnion202.Domain.Entities;
 using ProniaOnion202.Persistance.Common;
 using System;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ProniaOnion202.Persistance.DAL
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options):base(options) 
         {

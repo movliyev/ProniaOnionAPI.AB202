@@ -9,3 +9,4 @@ C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Co
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Domain\obj\Debug\net6.0\refint\ProniaOnion202.Domain.dll
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Domain\obj\Debug\net6.0\ProniaOnion202.Domain.pdb
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Domain\obj\Debug\net6.0\ref\ProniaOnion202.Domain.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Core\ProniaOnion202.Domain\obj\Debug\net6.0\ProniaOnion202.Domain.csproj.AssemblyReference.cache

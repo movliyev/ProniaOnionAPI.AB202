@@ -58,21 +58,27 @@ namespace ProniaOnion202.Persistance.Implementations.Services
             await _repo.SaveChangesAsync();
         }
 
-        public async Task SoftDeleteAsync(int id)
-        {
-
-            Tag tag = await _repo.GetByIdAsync(id,true);
-            if (tag == null) throw new Exception("Not Found:)");
-            _repo.SoftDelete(tag);
-            await _repo.SaveChangesAsync();
-
-        }
         public async Task DeleteAsync(int id)
         {
             Tag exist = await _repo.GetByIdAsync(id);
-
-
+            if (exist == null) throw new Exception("Not Found");
             _repo.Delete(exist);
+            await _repo.SaveChangesAsync();
+        }
+        public async Task SoftDeleteAsync(int id)
+        {
+            Tag exist = await _repo.GetByIdAsync(id, true);
+            if (exist == null) throw new Exception("Not Found");
+          
+            _repo.SoftDelete(exist);
+            await _repo.SaveChangesAsync();
+        }
+        public async Task ReverseAsync(int id)
+        {
+            Tag exist = await _repo.GetByIdAsync(id, true);
+            if (exist == null) throw new Exception("Not Found");
+           
+            _repo.ReverseDelete(exist);
             await _repo.SaveChangesAsync();
         }
     }

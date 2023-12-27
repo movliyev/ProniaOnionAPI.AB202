@@ -59,6 +59,15 @@ namespace ProniaOnion202.Persistance.Implementations.Services
             await _repo.SaveChangesAsync();
         }
 
+       
+        public async Task DeleteAsync(int id)
+        {
+            Color exist = await _repo.GetByIdAsync(id);
+
+
+            _repo.Delete(exist);
+            await _repo.SaveChangesAsync();
+        }
         public async Task SoftDeleteAsync(int id)
         {
 
@@ -68,15 +77,13 @@ namespace ProniaOnion202.Persistance.Implementations.Services
             await _repo.SaveChangesAsync();
 
         }
-        public async Task DeleteAsync(int id)
+        public async Task ReverseAsync(int id)
         {
-            Color exist = await _repo.GetByIdAsync(id);
+            Color exist = await _repo.GetByIdAsync(id, true);
+            if (exist == null) throw new Exception("Not Found");
 
-
-            _repo.Delete(exist);
+            _repo.ReverseDelete(exist);
             await _repo.SaveChangesAsync();
         }
-
-       
     }
 }

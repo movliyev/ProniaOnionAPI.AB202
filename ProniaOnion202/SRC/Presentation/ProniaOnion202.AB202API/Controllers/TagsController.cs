@@ -45,14 +45,26 @@ namespace ProniaOnion202.AB202API.Controllers
             return NoContent();
 
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0) return StatusCode(StatusCodes.Status400BadRequest);
             await _ser.DeleteAsync(id);
             return NoContent();
         }
-       
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> SoftDelete(int id)
+        {
+            await _ser.SoftDeleteAsync(id);
+            return NoContent();
+        }
+        [HttpPatch("{id}/reverse delete")]
+        public async Task<IActionResult> ReverseDelete(int id)
+        {
+            await _ser.ReverseAsync(id);
+            return NoContent();
+        }
+
 
     }
 }
