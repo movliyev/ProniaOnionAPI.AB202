@@ -1,4 +1,5 @@
-﻿using ProniaOnion202.Applicatin.DTOs.Users;
+﻿using ProniaOnion202.Applicatin.DTOs.Tokens;
+using ProniaOnion202.Applicatin.DTOs.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace ProniaOnion202.Applicatin.Abstractions.Services
     public interface IUserService
     {
         Task Registr(RegistrDto rdto);
-        Task Login(LoginDto rdto);
+        Task<TokenResponseDto> Login(LoginDto rdto);
     }
 }

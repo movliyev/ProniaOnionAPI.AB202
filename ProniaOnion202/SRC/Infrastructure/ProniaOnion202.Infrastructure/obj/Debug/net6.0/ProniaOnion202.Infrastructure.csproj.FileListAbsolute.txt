@@ -9,3 +9,9 @@ C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\In
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\obj\Debug\net6.0\refint\ProniaOnion202.Infrastructure.dll
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\obj\Debug\net6.0\ProniaOnion202.Infrastructure.pdb
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\obj\Debug\net6.0\ref\ProniaOnion202.Infrastructure.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\bin\Debug\net6.0\ProniaOnion202.Applicatin.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\bin\Debug\net6.0\ProniaOnion202.Domain.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\bin\Debug\net6.0\ProniaOnion202.Applicatin.pdb
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\bin\Debug\net6.0\ProniaOnion202.Domain.pdb
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\obj\Debug\net6.0\ProniaOnion202.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Infrastructure\ProniaOnion202.Infrastructure\obj\Debug\net6.0\ProniaOnion202.Infrastructure.csproj.CopyComplete

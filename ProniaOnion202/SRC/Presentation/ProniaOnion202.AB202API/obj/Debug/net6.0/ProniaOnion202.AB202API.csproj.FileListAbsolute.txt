@@ -82,3 +82,6 @@ C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Pr
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\ProniaOnion202.Infrastructure.dll
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\ProniaOnion202.Infrastructure.pdb
+C:\Users\helpdesk_connect\Desktop\ProniaOnion.AB202Project\ProniaOnion202\SRC\Presentation\ProniaOnion202.AB202API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
